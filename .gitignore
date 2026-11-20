@@ -1,35 +1,32 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-
 # Virtual environment
 .venv/
-venv/
 
-# Environment variables
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment secrets
 .env
-.env.*
-!.env.example
 
-# Jupyter
-.ipynb_checkpoints/
+# Uploaded and generated data
+data/uploads/*
+data/extracted_text/*
+data/processed_chunks/*
+data/indexes/*
 
-# IDE
-.vscode/
-.idea/
+# Preserve folder structure
+!data/uploads/.gitkeep
+!data/extracted_text/.gitkeep
+!data/processed_chunks/.gitkeep
+!data/indexes/.gitkeep
 
 # Testing
 .pytest_cache/
 .coverage
 htmlcov/
 
-# Data
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+# IDE
+.vscode/
 
-# Operating system
-.DS_Store
-Thumbs.db
+# Logs
+*.log
