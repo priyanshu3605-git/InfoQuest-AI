@@ -1,0 +1,13 @@
+nfoQuest-AI/
+│
+├── sample.pdf
+├── test_pdf_metadata.py
+│
+├── src/
+│   └── infoquest/
+│       └── services/
+│           ├── file_storage.py
+│           └── pdf_metadata.py
+│
+├── storage/
+└── database/
