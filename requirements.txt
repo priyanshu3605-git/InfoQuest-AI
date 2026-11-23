@@ -20,3 +20,4 @@ websockets==17.4
 fastapi==0.165.0
 SQLAlchemy
 python-multipart
+pypdf
